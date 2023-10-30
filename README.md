@@ -13,7 +13,7 @@ It is composed of two modules actually:
 
 * `lxd-common`: creates a storage pool, a volume and an installation image. The
 module call was appended to `provider.tf` for the sake of simplicity.
-* `kvm`: runs per instance (or instance group) and adds volumes, prepares the
+* `lxd`: runs per instance (or instance group) and adds volumes, prepares the
 cloud-init image/s, renders the required templates and creates the instances.
 
 ## Requirements
